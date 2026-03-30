@@ -1,5 +1,4 @@
 vim.g.mapleader = ' '
-vim.g.maplocalleader = ' '
 
 vim.keymap.set("n", "<C-d>", "<C-d>zz")
 vim.keymap.set("n", "<C-u>", "<C-u>zz")
@@ -11,18 +10,16 @@ vim.keymap.set("x", "<leader>p", [["_dP]])
 vim.keymap.set({"n", "v"}, "<leader>y", [["+y]])
 vim.keymap.set("n", "<leader>Y", [["+Y]])
 
-vim.keymap.set("n", "<leader>wr", vim.cmd.write)
-vim.keymap.set("n", "<leader>qu", vim.cmd.quit)
 vim.keymap.set("n", "<leader>bn", vim.cmd.bnext)
 vim.keymap.set("n", "<leader>bp", vim.cmd.bprevious)
 vim.keymap.set("n", "<leader>bd", vim.cmd.bdelete)
 
-vim.keymap.set("n", ",v", "<C-w>v")
-vim.keymap.set("n", ",w", "<C-w>s")
-vim.keymap.set("n", ",n", "<C-w>_")
-vim.keymap.set("n", ",m", "<C-w><Bar>")
-vim.keymap.set("n", ",e", "<C-w>=")
-vim.keymap.set("n", ",c", "<C-w>c")
+vim.keymap.set("n", "<leader>v", "<C-w>v")
+vim.keymap.set("n", "<leader>w", "<C-w>s")
+vim.keymap.set("n", "<leader>n", "<C-w>_")
+vim.keymap.set("n", "<leader>m", "<C-w><Bar>")
+vim.keymap.set("n", "<leader>=", "<C-w>=")
+vim.keymap.set("n", "<leader>cc", "<C-w>c")
 
 vim.keymap.set('n', '<Esc>', '<cmd>nohlsearch<CR>')
 
