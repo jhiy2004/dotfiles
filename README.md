@@ -7,6 +7,7 @@ Configurações pessoais (*dotfiles*) para programas que utilizo no desenvolvime
 - **Neovim**
 - **Tmux**
 - **Kitty**
+- **I3**
 
 ## 🚀 Instalação
 
