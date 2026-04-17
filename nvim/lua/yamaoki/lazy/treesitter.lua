@@ -10,7 +10,7 @@ return {
     }
     require('nvim-treesitter').install {
       "vimdoc", "javascript", "typescript", "c", "lua", "rust",
-      "jsdoc", "bash", "cpp", "latex"
+      "jsdoc", "bash", "cpp", "latex", "go"
     }
 
   end
