@@ -8,6 +8,9 @@ Configurações pessoais (*dotfiles*) para programas que utilizo no desenvolvime
 - **Tmux**
 - **Kitty**
 - **I3**
+- **Bash**
+- **Picom**
+- **Rofi**
 
 ## 🚀 Instalação
 
